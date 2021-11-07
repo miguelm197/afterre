@@ -1,0 +1,215 @@
+:root {
+  --bg-color-0: #0f3d59; /* Color principal */
+  --bg-color-1: #0f3d59;
+  --bg-color-2: #07283d; /* Destacar cosas con fondo bg-color-1 */
+  --bg-color-3: #4d90b9; /* Sobre fondo bg-color-4 */
+  --bg-color-4: #f5f8fb; /* Fondo body */
+  --bg-color-5: #ffeaee; /* Para errores con texto tx-color-7 */
+  --bg-color-6: #d9e5f2; /* Para bordes y lineas  */
+  --bg-color-7: #e5edf7; /* Para bordes y lineas  */
+  --bg-white: #fff;
+
+  --tx-color-0: #1d2f5b; /* Texto oscuro para titulos*/
+  --tx-color-1: #37559d; /* Texto gral */
+  --tx-color-2: #43588f; /* Titulos grandes */
+  --tx-color-3: #babbcd; /* Queda bien con bg-color-2 */
+  --tx-color-4: #89a6c4; /* Subtitulos con fondo bg-color-3 */
+  --tx-color-5: #d0d2fc; /* Subtitulo */
+  --tx-color-6: #d9e5f2; /* Para botones outline con fondo blanco */
+  --tx-color-7: #00c2bb;
+  --tx-color-8: #ff5388;
+  --tx-color-9: #a2b2c4; /* Para placeholders */
+
+  // Opacidad a la mitad
+  --op-color-1: #0f3d5979;
+  --op-color-3: #4d8fb97e;
+  --op-color-6: #59a1ff82;
+  --op-white: rgba(255, 255, 255, 0.25);
+  --op-white-2: rgba(255, 255, 255, 0.15);
+  --op-black: rgba(0, 0, 0, 0.25);
+  --op-black-2: rgba(0, 0, 0, 0.15);
+  --op-black-3: rgba(0, 0, 0, 0.05);
+
+  // hover
+  --ho-color-1: #072c3d;
+  --ho-color-3: #184d6e;
+  --ho-color-6: #d9e5f288;
+
+  // active - focus
+  --ac-color-1: #093e5a;
+  --ac-color-3: #68a7fa;
+  --ac-color-6: rgb(118, 186, 250);
+}
+
+// #region border
+.bg-color-0 {
+  background-color: var(--bg-color-0);
+}
+.bg-color-1 {
+  background-color: var(--bg-color-1);
+}
+.bg-color-2 {
+  background-color: var(--bg-color-2);
+}
+.bg-color-3 {
+  background-color: var(--bg-color-3);
+}
+.bg-color-4 {
+  background-color: var(--bg-color-4);
+}
+.bg-color-5 {
+  background-color: var(--bg-color-5);
+}
+.bg-color-6 {
+  background-color: var(--bg-color-6);
+}
+// #endregion
+
+// #region texto
+.tx-color-0 {
+  color: var(--tx-color-0);
+}
+.tx-color-1 {
+  color: var(--tx-color-1);
+}
+.tx-color-2 {
+  color: var(--tx-color-2);
+}
+.tx-color-3 {
+  color: var(--tx-color-3);
+}
+.tx-color-4 {
+  color: var(--tx-color-4);
+}
+.tx-color-5 {
+  color: var(--tx-color-5);
+}
+.tx-color-6 {
+  color: var(--tx-color-6);
+}
+.tx-color-6 {
+  color: var(--tx-color-6);
+}
+.tx-color-7 {
+  color: var(--tx-color-7);
+}
+.tx-color-8 {
+  color: var(--tx-color-8);
+}
+.tx-color-9 {
+  color: var(--tx-color-9);
+}
+// #endregion
+
+// #region border-color
+.bo-color-1 {
+  border-color: var(--bg-color-1);
+}
+.bo-color-2 {
+  border-color: var(--bg-color-2);
+}
+.bo-color-3 {
+  border-color: var(--bg-color-3);
+}
+.bo-color-4 {
+  border-color: var(--bg-color-4);
+}
+.bo-color-5 {
+  border-color: var(--bg-color-5);
+}
+.bo-color-6 {
+  border-color: var(--bg-color-6);
+}
+// #endregion
+
+// #region opacity background
+.op-white {
+  background-color: var(--op-white);
+}
+.op-white-2 {
+  background-color: var(--op-white-2);
+}
+.op-black {
+  background-color: var(--op-black);
+}
+.op-black-2 {
+  background-color: var(--op-black-2);
+}
+.op-black-3 {
+  background-color: var(--op-black-3);
+}
+.op-color-1 {
+  background-color: var(--op-color-1);
+}
+.op-color-3 {
+  background-color: var(--op-color-3);
+}
+.op-color-6 {
+  background-color: var(--op-color-6);
+}
+
+// #endregion
+
+.opacity-0 {
+  opacity: 0;
+}
+.opacity-5 {
+  opacity: 0.5;
+}
+.opacity-10 {
+  opacity: 0.1;
+}
+.opacity-15 {
+  opacity: 0.15;
+}
+.opacity-20 {
+  opacity: 0.2;
+}
+.opacity-25 {
+  opacity: 0.25;
+}
+.opacity-30 {
+  opacity: 0.3;
+}
+.opacity-35 {
+  opacity: 0.35;
+}
+.opacity-40 {
+  opacity: 0.4;
+}
+.opacity-45 {
+  opacity: 0.45;
+}
+.opacity-50 {
+  opacity: 0.5;
+}
+.opacity-55 {
+  opacity: 0.55;
+}
+.opacity-60 {
+  opacity: 0.6;
+}
+.opacity-65 {
+  opacity: 0.65;
+}
+.opacity-70 {
+  opacity: 0.7;
+}
+.opacity-75 {
+  opacity: 0.75;
+}
+.opacity-80 {
+  opacity: 0.8;
+}
+.opacity-85 {
+  opacity: 0.85;
+}
+.opacity-90 {
+  opacity: 0.9;
+}
+.opacity-95 {
+  opacity: 0.95;
+}
+.opacity-100 {
+  opacity: 1;
+}
